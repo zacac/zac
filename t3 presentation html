@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>T3 Presentation</title>
+
+        <meta name="description" content="What I've done for the last month">
+        <meta name="author" content="Zac Cohen">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/moon.css" id="theme">
+
+
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                <section data-transition="convex" data-background="00FF00"data-background-transition="convex">
+   	                <h2>Test should be the header of slide 1</h2>
+                    <p>First foray into reveal.js</p>
+                </section>
+                
+				<section>
+					<h1>Zac's t3 presentation May 25, 2015 </h1>
+					<h3>test</h3>
+				</section>
+
+				<section>
+					<h2>Why I'm here</h2>
+					<p>
+						<ul>
+                            <li>Senior Project</li>
+                            <li>What I want to do</li>
+                        </ul>
+					</p>
+				</section>
+            
+                <section>
+                    <section>
+                        <h2>What I Have Learned</h2>
+                        <p>Over the last month I have tried an incredible amount of new things</p>
+                    </section>
+                    <section> 
+                        <h2>I learned how to design things in Creo Parametric </h2>
+                        <img src="http://i.imgur.com/8ZF61OH.png" alt="Mountain View" style="width:304px;height:228px">
+                    </section>
+                    <section>
+                        <h2>I learned how to print my designs</h2>
+                    </section>
+                    <section>
+                        <h2>I learned how to use python, html, maestor, even a little html and css</h2>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </body>            
